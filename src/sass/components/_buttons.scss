@@ -1,0 +1,37 @@
+// button part scss //
+
+.primary-btn {
+    border: 0;
+    height: 70px;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #40c0bb;
+    font-family: Avenir-ragular;
+    box-shadow: 0px 16px 23px 0px #2F36761F;
+
+    &.btn-info {
+        height: 33px;
+        font-size: 15px !important;
+    }
+
+    &.btn-menu {
+        height: 40px !important;
+    }
+
+    &:hover {
+        color: #ffffff;
+        background-color: #0e9c97;
+    }
+
+    &:active {
+        color: #ffffff !important;
+        background-color: #0e9c97 !important;
+    }
+
+    &:focus {
+        color: #ffffff;
+        background-color: #0e9c97;
+    }
+}
