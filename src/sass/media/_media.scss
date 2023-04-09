@@ -1,4 +1,3 @@
-
 @media (max-width: 768px) {
 
     // navigation part scss //
@@ -8,14 +7,32 @@
 
     // hero part scss //
     #hero {
-
         margin-top: 0px;
         padding-top: 0px;
         padding: 50px 0;
+
+        &-content {
+            @media (max-width: 767.98px) {
+                &-text {
+                    h5 {
+                        font-size: 18px;
+                    }
+                }
+
+                &-icon img {
+                    width: 30px;
+                }
+            }
+        }
     }
 
     // advantage part scss //
     #advantage {
+
+        @media (max-width: 767.98px) {
+            padding-bottom: 70px;
+        }
+
         &::after {
             display: none;
         }
@@ -48,21 +65,45 @@
         }
     }
 
-
     // content part scss //
     #content {
         padding-top: 80px;
 
-        .content {
+        @media (max-width: 767.98px) {
+            .content-img {
+                left: -40px;
+            }
 
-            &-text {
-                p {
-                    font-size: 21px;
+            .content-img2 {
+                right: -65px;
+            }
+
+            .content-img3 {
+                left: -80px;
+            }
+        }
+    }
+}
+
+// content-black//
+#content-back {
+    .content-back {
+        &-text {
+            @media (max-width: 575.98px) {
+                h2 {
+                    font-size: 7.5vw !important;
+                }
+            }
+
+            @media (min-width: 576px) and (max-width: 767.98px) {
+                h2 {
+                    font-size: 6vw !important;
                 }
             }
         }
     }
 }
+
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 

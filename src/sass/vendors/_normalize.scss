@@ -55,12 +55,17 @@ a {
 
 @font-face {
   font-family: BeVietnam-bold;
-  src: url(/assets/fonts/BeVietnamPro/BeVietnamPro-Black.ttf);
+  src: url(/assets/fonts/BeVietnamPro/BeVietnamPro-Bold.ttf);
 }
 
 @font-face {
   font-family: BeVietnam-Medium;
-  src: url(/assets/fonts/BeVietnamPro-Medium.ttf);
+  src: url(/assets/fonts/BeVietnamPro/BeVietnamPro-Medium.ttf);
+}
+
+@font-face {
+  font-family: BeVietnam-SemiBold;
+  src: url(/assets/fonts/BeVietnamPro/BeVietnamPro-SemiBold.ttf);
 }
 
 body {
@@ -88,14 +93,15 @@ h1 {
 h2 {
   color: #191847;
   font-size: 54px;
+  letter-spacing: 0.05em;
   font-family: BeVietnam-bold;
 
-  @media (max-width: 767.98px) {
-    font-size: 27px;
+  @media (max-width: 575.98px) {
+    font-size: 8vw;
   }
 
-  @media (min-width: 993px) and (max-width: 1199.98px) {
-    font-size: 35px;
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    font-size: 6vw;
   }
 
   @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -141,7 +147,12 @@ h6 {
 
 p {
   color: #16153e;
-  font-family: Avenir-ragular;
+  font-family: Avenir-light;
+
+  @media (max-width: 767.98px) {
+    font-size: 18px !important;
+  }
+
 }
 
 // font weight //
@@ -155,7 +166,7 @@ p {
   padding-bottom: 65px;
 
   @media (max-width: 768px) {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
