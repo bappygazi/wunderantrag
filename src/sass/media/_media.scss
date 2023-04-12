@@ -69,18 +69,16 @@
     #content {
         padding-top: 80px;
 
-        @media (max-width: 767.98px) {
-            .content-img {
-                left: -40px;
-            }
+        .content-img {
+            left: -40px;
+        }
 
-            .content-img2 {
-                right: -65px;
-            }
+        .content-img2 {
+            right: -65px;
+        }
 
-            .content-img3 {
-                left: -80px;
-            }
+        .content-img3 {
+            left: -80px;
         }
     }
 }
@@ -125,17 +123,54 @@
 
     // advantage part scss //
     #advantage {
-        &::after {
-            display: none;
-        }
+        // &::after {
+        //     display: none;
+        // }
 
         .advantage {
             &-contents {
-                .icon {
-                    img {
-                        width: 70px;
+                &-items {
+                    .text {
+                        p {
+                            line-height: 26px;
+                            font-size: 16px;
+                        }
                     }
                 }
+            }
+        }
+    }
+
+    // time part scss //
+
+    #timer {
+        .timer-contents {
+            h2 {
+                span {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    // content part scss //
+
+    #content {
+        .content-img {
+            left: -120px;
+        }
+
+        .content-img2 {
+            right: -110px;
+        }
+
+        .content-img3 {
+            left: -120px;
+        }
+
+        .content-text {
+            p {
+                font-size: 18px;
             }
         }
     }
@@ -151,6 +186,28 @@
                 &::after {
                     display: none;
                 }
+            }
+        }
+    }
+
+    // content part scss //
+
+    #content {
+        .content-img {
+            left: -125px;
+        }
+
+        .content-img2 {
+            right: -115px;
+        }
+
+        .content-img3 {
+            left: -125px;
+        }
+
+        .content-text {
+            p {
+                font-size: 18px;
             }
         }
     }

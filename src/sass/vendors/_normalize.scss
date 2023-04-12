@@ -85,88 +85,113 @@ h1 {
     font-size: 45px;
   }
 
-  @media (min-width: 993px) and (max-width: 1199.98px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
     font-size: 70px;
   }
-}
 
-h2 {
-  color: #191847;
-  font-size: 54px;
-  letter-spacing: 0.05em;
-  font-family: BeVietnam-bold;
-
-  @media (max-width: 575.98px) {
-    font-size: 8vw;
+    @media (min-width: 993px) and (max-width: 1199.98px) {
+      font-size: 70px;
+    }
   }
 
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    font-size: 6vw;
+  h2 {
+    color: #191847;
+    font-size: 54px;
+    letter-spacing: 0.05em;
+    font-family: BeVietnam-bold;
+
+    @media (max-width: 575.98px) {
+      font-size: 8vw;
+    }
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      font-size: 6vw;
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      font-size: 4.2vw;
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      font-size: 39px;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+      font-size: 43px;
+    }
   }
 
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
-    font-size: 43px;
+  h3 {
+    color: #191847;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: BeVietnam-bold;
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      font-size: 22px;
+      line-height: 28px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      font-size: 23px;
+    }
   }
-}
 
-h3 {
-  color: #191847;
-  font-size: 24px;
-  line-height: 32px;
-  font-family: BeVietnam-bold;
-}
+  h4 {
+    color: #191847;
+    font-size: 21px;
+    font-family: BeVietnam-bold;
 
-h4 {
-  color: #191847;
-  font-size: 21px;
-  font-family: BeVietnam-bold;
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      font-size: 18px;
+    }
+  }
 
-  @media (min-width: 992px) and (max-width: 1199.98px) {
+  h5 {
+    color: #191847;
+    font-size: 19px;
+    line-height: 26px;
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      font-size: 16px;
+    }
+  }
+
+  h6 {
+    color: #191847;
     font-size: 18px;
-  }
-}
 
-h5 {
-  color: #191847;
-  font-size: 19px;
-  line-height: 26px;
-}
+    @media (max-width: 767.98px) {
+      font-size: 14px;
+    }
 
-h6 {
-  color: #191847;
-  font-size: 18px;
-
-  @media (max-width: 767.98px) {
-    font-size: 14px;
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+      font-size: 15px;
+    }
   }
 
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
-    font-size: 15px;
-  }
-}
+  p {
+    color: #16153e;
+    font-family: Avenir-light;
 
-p {
-  color: #16153e;
-  font-family: Avenir-light;
+    @media (max-width: 767.98px) {
+      font-size: 18px !important;
+    }
 
-  @media (max-width: 767.98px) {
-    font-size: 18px !important;
   }
 
-}
-
-// font weight //
-.fw-medium {
-  font-weight: 500;
-}
-
-// custom padding//
-.c-padding {
-  padding-top: 65px;
-  padding-bottom: 65px;
-
-  @media (max-width: 768px) {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  // font weight //
+  .fw-medium {
+    font-weight: 500;
   }
-}
+
+  // custom padding//
+  .c-padding {
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+    @media (max-width: 768px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
